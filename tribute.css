@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(0, 0, 0); /* Sets background to black */
+    font-style: italic;
+    color: #79cfd2; /* Yellow text */
+    font-size: 20px;
+    margin: 0; /* Reset margin */
+    width: 100%; /* Full-width body */
+    text-align: center;
+  }
+  
+  h1, p, div, h2 {
+    margin: 0.9em auto; /* Corrected margin syntax */
+  }
+  
+  #image {
+    max-width: 100%; /* Image will not exceed container width */
+    height: auto; /* Maintains aspect ratio */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Added this to properly center */
+  }
+  
+  h3 {
+    text-align: center; /* 'auto' removed, proper left alignment */
+    color: rgb(218, 224, 65);
+  }
+  
+  img {
+    max-width: 50%; /* Limits image width to 50% of its container */
+    height: auto; /* Keeps aspect ratio */
+    margin: 10px auto; /* Added 'px' for margin, auto for centering */
+    display: block; /* Ensures it's a block-level element */
+    justify-content: center; /* Centering within the flexbox is unnecessary here */
+    align-items: center; /* Removed, not needed for image centering */
+  }
+  
+  .text {
+    margin: 0 auto;
+    width: 60vw; /* Takes up 60% of the viewport width */
+  }
+  
+  a {
+    color: white; /* White link color */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  h1 {
+    color:rgb(160, 131, 186);
+  }
+  h2 {
+    color:rgb(176, 148, 200)
+
+  }
